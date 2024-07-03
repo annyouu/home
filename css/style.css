@@ -1,0 +1,795 @@
+ @charset "utf-8";
+
+
+
+ body {
+   margin: 0;
+   font-family: 'Exo', sans-serif;
+   padding: 0;
+   max-width: 100%;
+ }
+
+  /* * {   
+  outline: solid 2px blue;
+ }
+  */
+
+
+
+
+ header {
+   display: flex;
+   border: solid 2px #ddd;
+   background: #ddd;
+   margin: 30px;
+   border-radius: 10px;
+   position: relative;
+   top: -15px;
+ }
+
+ img {
+   margin: 0;
+   padding: 0;
+   position: relative;
+   left: 20px;
+   top: 4px;
+   mix-blend-mode: multiply;
+   cursor: pointer;
+ }
+
+ h1 {
+   font-size: 26px;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+
+ .context {
+   width: 100%;
+ }
+
+
+ .context h3 {
+   text-align: center;
+   padding-top: 100px;
+   font-size: 50px;
+   position: absolute;
+   top: 200px;
+   left: 350px;
+   color: white;
+ }
+
+ p {
+   border: solid 2px white;
+   width: 100%;
+   position: absolute;
+   top: 700px;
+ }
+
+ .move1 h2 {
+   position: absolute;
+   top: 700px;
+   left: 620px;
+ }
+
+
+ .move2 p {
+   border: solid 2px white;
+   position: absolute;
+   top: 1820px;
+ }
+
+ .move2 h5 {
+   position: absolute;
+   top: 4000px;
+ }
+
+ .move2 h4 {
+   position: absolute;
+   top: 1800px;
+   left: 620px;
+   font-size: 30px;
+ }
+
+ .move3 h6 {
+   position: absolute;
+   top: 2480px;
+   left: 550px;
+   font-size: 40px;
+ }
+
+ .move3 p {
+   border: solid 2px white;
+   position: absolute;
+   top: 2550px;
+ }
+
+ .skill1 button {
+   all: unset;
+   border: solid 1px black;
+   padding: 200px 150px;
+   border-radius: 8px;
+   position: absolute;
+   top: 780px;
+   left: 40px;
+ }
+
+ .skill1 img {
+   pointer-events: none;
+   position: absolute;
+   top: 810px;
+   left: 160px;
+ }
+
+ .product a {
+   margin: 0;
+   border: solid 1px black;
+   padding: 5px 10px;
+   position: absolute;
+   top: 500px;
+ }
+
+ .skill2 button {
+   all: unset;
+   border: solid 1px black;
+   padding: 200px 150px;
+   border-radius: 8px;
+   position: absolute;
+   top: 780px;
+   left: 490px;
+ }
+
+ .skill2 img {
+   position: absolute;
+   top: 810px;
+   left: 610px;
+ }
+
+
+ .skill3 button {
+   all: unset;
+   border: solid 1px black;
+   padding: 200px 150px;
+   border-radius: 8px;
+   position: absolute;
+   top: 780px;
+   left: 930px;
+ }
+
+ .skill3 img {
+   position: absolute;
+   top: 810px;
+   left: 1035px;
+ }
+
+
+ .skill4 button {
+   all: unset;
+   border: solid 1px black;
+   padding: 200px 150px;
+   border-radius: 8px;
+   position: absolute;
+   top: 1260px;
+   left: 60px;
+ }
+
+ .skill4 img {
+   position: absolute;
+   top: 1300px;
+   left: 135px;
+ }
+
+ .skill5 button {
+   all: unset;
+   border: solid 1px black;
+   padding: 200px 150px;
+   border-radius: 8px;
+   position: absolute;
+   top: 1260px;
+   left: 500px;
+ }
+
+ .skill5 img {
+   position: absolute;
+   top: 1300px;
+   left: 610px;
+ }
+
+ .skill6 button {
+   all: unset;
+   border: solid 1px black;
+   padding: 200px 150px;
+   border-radius: 8px;
+   position: absolute;
+   top: 1260px;
+   left: 940px;
+ }
+
+ .skill6 img {
+   position: absolute;
+   top: 1300px;
+   left: 1035px;
+ }
+
+ h2 {
+   position: relative;
+   top: 1200px;
+   left: 640px;
+ }
+
+
+
+ ul {
+   list-style: none;
+   margin: 0;
+   padding-top: 26px;
+   padding-left: 100px;
+   display: flex;
+   gap: 50px;
+ }
+
+ ul li a {
+   text-decoration: none;
+   color: black;
+   border: solid 1px #ddd;
+   padding: 10px 20px;
+   border-radius: 6px;
+ }
+
+ ul li a:hover {
+   background-color: black;
+   color: white;
+ }
+
+ li a {
+   text-decoration: none;
+   color: black;
+   margin: 0;
+   padding: 0;
+ }
+
+
+
+ .product a {
+  text-decoration: none;
+   border: solid 1px blue;
+   background-color: blue;
+   padding: 5px 10px;
+   border-radius: 8px;
+   color: white;
+   z-index: 1;
+   position: absolute;
+   top: 1150px;
+   left: 240px;
+ }
+
+ .product1 a {
+  text-decoration: none;
+   border: solid 1px red;
+   background-color: red;
+   padding: 5px 10px;
+   border-radius: 8px;
+   color: white;
+   z-index: 1;
+   position: absolute;
+   top: 1150px;
+   left: 700px;
+ }
+
+ .product2 a {
+  text-decoration: none;
+   border: solid 1px greenyellow;
+   background-color: greenyellow;
+   padding: 5px 10px;
+   border-radius: 8px;
+   color: white;
+   z-index: 1;
+   position: absolute;
+   top: 1620px;
+   left: 680px;
+ }
+
+ .sp-menu {
+   position: absolute;
+   top: 17px;
+   right: 70px;
+ }
+
+ .sp-menu #open {
+   font-size: 40px;
+   cursor: pointer;
+ }
+
+ .sp-menu #open.hide {
+   display: none;
+ }
+
+ .overlay {
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   background: rgba(255, 255, 255, 0.95);
+   text-align: center;
+   padding: 64px;
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity .6s;
+ }
+
+ .overlay a {
+   display: block;
+ }
+
+ .overlay.show {
+   opacity: 1;
+   pointer-events: auto;
+ }
+
+ .overlay #close {
+   position: absolute;
+   top: 16px;
+   right: 16px;
+   font-size: 32px;
+   cursor: pointer;
+ }
+
+ .overlay ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .overlay li {
+   margin-top: 24px;
+   opacity: 0;
+   transform: translateY(16px);
+   transition: opacity .3s, transform .3s;
+ }
+
+ .overlay.show li {
+   opacity: 1;
+   transform: none;
+ }
+
+ .overlay.show li:nth-child(1) {
+   transition-delay: .1s;
+ }
+
+ .overlay.show li:nth-child(2) {
+   transition-delay: .2s;
+ }
+
+ .overlay.show li:nth-child(3) {
+   transition-delay: .3s;
+ }
+
+ .overlay.show li:nth-child(4) {
+  transition-delay: .4s;
+}
+
+ .introduce li a {
+  display: inline-block;
+   all: unset;
+   border-radius: 4px 4px 0 0;
+    padding: 5px 10px;
+   width: 100px;
+ }
+
+ .introduce li a:hover {
+   background-color: #333;
+  
+   cursor: pointer;
+ }
+
+ .introduce li a.active {
+   background: #333;
+   color: #fff;
+ }
+
+ .introduce li a:not(.active):hover {
+   opacity: 0.5;
+   transition: opacity 0.4s;
+ }
+ 
+ .move2 ul {
+  position: absolute;
+  top: 2000px ;
+ }
+
+ .content {
+  position: absolute;
+  top: 2050px;
+  left: 100px;
+  display: none;
+ }
+
+
+
+
+
+ .content.active {
+  background: #333;
+  color: #fff;
+  min-height: 150px;
+  width: 600px;
+  padding: 25px;
+  display: block;
+ }
+
+ 
+
+ @media (max-width: 1151px) {
+   .sp-menu {
+     display: block;
+   }
+ }
+
+
+
+ @media (max-width: 1150px) {
+   header a {
+     display: none;
+   }
+ }
+
+ h7 {
+  position: absolute;
+   top: 4000px;
+ }
+
+ .area {
+   background: #4e54c8;
+   background: linear-gradient(to left, #8f94fb, #4e54c8);
+   width: 100%;
+   height: 500px;
+   margin-top: 35px;
+ }
+
+.inquiry {
+  width: 960px;
+  margin: 0 auto;
+ position: absolute;
+ top: 2680px;
+ left: 120px;
+}
+
+.inquiry-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inquiry-item,
+.inquiry-body {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.inquiry-item {
+  text-align: left;
+  width: 30%;
+  background-color: #eee;
+}
+
+.inquiry-body {
+  width: 70%;
+}
+
+.inquiry-sex + .inquiry-sex {
+  margin-left: 10px;
+}
+
+.inquiry-sex-txt {
+  margin-left: 5px;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.inquiry-submit {
+  width: 250px; 
+  background-color: blueviolet; 
+  color: #fff; 
+  font-weight: bold; 
+  display: block; 
+  margin-left: 430px; 
+  font-size: 16px; 
+  padding: 15px; 
+  border-radius: 100vh; 
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer
+}
+ 
+
+ .squares li:nth-child(1) {
+   background: #fff;
+   border-radius: 8px;
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   aspect-ratio: 1 / 1;
+   animation: 10s linear 2s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(2) {
+   background: #fff;
+   border-radius: 8px;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   bottom: -260px;
+   /* 要修正*/
+   left: 50px;
+   aspect-ratio: 1 / 1;
+   animation: 8s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(3) {
+   background: #fff;
+   border-radius: 8px;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   bottom: -270px;
+   /* 要修正*/
+   left: 200px;
+   aspect-ratio: 1 / 1;
+   animation: 4s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(4) {
+   background: #fff;
+   border-radius: 8px;
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 500px;
+   aspect-ratio: 1 / 1;
+   animation: 16s linear 2s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(5) {
+   background: #fff;
+   border-radius: 8px;
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 700px;
+   aspect-ratio: 1 / 1;
+   animation: 12s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(6) {
+   background: #fff;
+   border-radius: 8px;
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 360px;
+   aspect-ratio: 1 / 1;
+   animation: 8s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(7) {
+   background: #fff;
+   border-radius: 8px;
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 540px;
+   aspect-ratio: 1 / 1;
+   animation: 9s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(8) {
+   background: #fff;
+   border-radius: 8px;
+   width: 90px;
+   height: 90px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 400px;
+   aspect-ratio: 1 / 1;
+   animation: 12s linear 2s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(9) {
+   background: #fff;
+   border-radius: 8px;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 260px;
+   aspect-ratio: 1 / 1;
+   animation: 8s linear 2s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(10) {
+   background: #fff;
+   border-radius: 8px;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   bottom: -300px;
+   /* 要修正*/
+   left: 900px;
+   aspect-ratio: 1 / 1;
+   animation: 15s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(11) {
+   background: #fff;
+   border-radius: 8px;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 620px;
+   aspect-ratio: 1 / 1;
+   animation: 6s linear 2s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(12) {
+   background: #fff;
+   border-radius: 8px;
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   bottom: -280px;
+   /* 要修正*/
+   left: 380px;
+   aspect-ratio: 1 / 1;
+   animation: 6s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(13) {
+   background: #fff;
+   border-radius: 8px;
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   bottom: -270px;
+   /* 要修正*/
+   left: 1000px;
+   aspect-ratio: 1 / 1;
+   animation: 3s linear 1s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(14) {
+   background: #fff;
+   border-radius: 8px;
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   bottom: -270px;
+   left: 1120px;
+   aspect-ratio: 1 / 1;
+   animation: 5s linear 1s infinite square-rise;
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+
+ .squares li:nth-child(15) {
+   background: #fff;
+   border-radius: 8px;
+   width: 75px;
+   height: 75px;
+   position: absolute;
+   bottom: -270px;
+   left: 1150px;
+   aspect-ratio: 1 / 1;
+   animation: 11s linear 1s infinite square-rise;
+
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(16) {
+   background: #fff;
+   border-radius: 8px;
+   width: 85px;
+   height: 85px;
+   position: absolute;
+   bottom: -270px;
+   /* 要修正*/
+   left: 1050px;
+   aspect-ratio: 1 / 1;
+   animation: 13s linear 2s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ .squares li:nth-child(17) {
+   background: #fff;
+   border-radius: 8px;
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   bottom: -270px;
+   /* 要修正*/
+   left: 800px;
+   aspect-ratio: 1 / 1;
+   animation: 8s linear 4s infinite square-rise;
+   /* 4秒かけて1サイクル完了 linear 加速 等速で 1s アニメーションの遅らせる時間 infinite 無限に繰り返す*/
+   transition-timing-function: ease-in;
+   opacity: 0.2;
+ }
+
+ @keyframes square-rise {
+   0% {
+     transform: translateY(0px) rotate(700deg);
+   }
+
+   50% {
+     opacity: 0.1;
+   }
+
+   100% {
+     transform: translateY(-830px);
+     opacity: 0;
+   }
+ }
+ 
